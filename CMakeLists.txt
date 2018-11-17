@@ -39,5 +39,5 @@ add_executable(${PROJECT_NAME} "main.cpp" ${SOURCES})
 # Without libraries
 target_link_libraries(${PROJECT_NAME})
 # With libraries
-target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} SDL2_image GLEW ${OPENGL_LIBRARIES})
+#target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} SDL2_image GLEW ${OPENGL_LIBRARIES})
 
